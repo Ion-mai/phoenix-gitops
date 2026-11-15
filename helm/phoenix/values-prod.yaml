@@ -2,14 +2,15 @@
 environment: prod
 frontend:
   replicas: 2
-  image: { tag: latest }
+  image: {tag: latest}
 backend:
   replicas: 4
-  image: { tag: latest }
+  image: {tag: latest}
   resources:
-    requests: { cpu: 200m, memory: 256Mi }
-    limits: { cpu: "1", memory: 512Mi }
+    requests: {cpu: 200m, memory: 256Mi}
+    limits: {cpu: "1", memory: 512Mi}
 database:
   storage: 5Gi
+  sealedPassword: AgCTP7FNlaa3V+zfsbgJ8XwKilCH+2BM96cK2eZ8FhXL8k/sWIu6LFh+wA0haKeuLASUWSIyOXkTSmNfF6pCaEvdHaaDCbv1T5s1+HNCy4Fs3Gxvkpa3L7W2MsNR4cMjom3uSzrodPEL54FAVMG1ECS5y0atUQsAJr3d38UWjDaxoVu2q9ZdmioV4xRfLjGE9niBHrnavrTcPOv2rMOm6Tqj968tO9muYg6WV2PqXNH6MxTYr75LvEtKS/cAO3JDgRYkr8tb9//Ynx8nIVErYXLTmaAe/+hVwB0Fz1gAxan6tzCy9soILmxSH6kZF3p6OS6zF0E1TG9OjUcuTt1XAoabAvQt+d92cHoHzs5orNwzRisJMwOJrX38/XDLof+uvHdGv9DPt9anRtpF+f67HEdVsxouEyVTYheDLbECFPEusKOCLxG0JJyHjhZtSYi5MTC3SkgkgdXhiTuulvE9bkvlIfljTOwiMJY9kdCivhoc1PIabLLpq5gPKZqTnr3zSn7+N0rfAk6dLMLaMfk7S59G0CXhN6S81nWpyq9QMp+MAa1b6xXhFnvdxwzxAmjeqopwlqwZxYUzIjlVE7z2dGPhr3j4s4geNgvC0sUy93wBdqhdpORZp8egjAOBuJUO28Esw+sz6xSsZlAXNTFcrYysqYL8aJ0uug/xZ1YX54PN5BaT4AFruLtRvH+UFQgHI2fymsrvL2QgvrZ/7boJD5xi6NaET9L5Fw==
 loadgen:
   enabled: false
