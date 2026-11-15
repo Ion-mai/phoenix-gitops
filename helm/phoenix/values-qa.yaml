@@ -2,10 +2,12 @@
 environment: qa
 frontend:
   replicas: 2
-  image: { tag: latest }
+  image: {tag: latest}
 backend:
   replicas: 2
-  image: { tag: latest }
+  image: {tag: latest}
   resources:
-    requests: { cpu: 100m, memory: 128Mi }
-    limits: { cpu: 500m, memory: 384Mi }
+    requests: {cpu: 100m, memory: 128Mi}
+    limits: {cpu: 500m, memory: 384Mi}
+database:
+  sealedPassword: AgAENKQq63r0E64hTI7ubuh4H0wAyQKS5rRBx5tbIqN1E5TITpSpGAFB9p+/shaQkzNCZkDu7E6krdSN0Qb6W0Zq9t2nqzPCfd98O+O/SBqoQoGMFuXYoW7kP6M9OadqnV/+VXskHwWTP9Gwhs1gr1E4EyFc+7UBPtq/wCdZle3O9vZEwaWUOk0NzlWfdq8RjUIuPx1M3VJy05eTQvtG43YHXtE9FA9tyhi2D2zuYZlHxDLA9/9oDYOZJ7Dbx4CIiCLWekq6bj0oolO6WlxAR66bExXVkSVZDdVceTE+8YXnAAnruk/J6KWUQgk0n8W3uaEepi4OgwVAOEpF2aJuyovV6pNu9jsihzjBjJsXBvkt69xx7Rn/VwFxXK8kc9L2PSE7Rp9QSTkwKPRrdKSSKlJWO4f00NUu6iNv8CEC3aUGoL8rIEG7NnMW5Cz5/4jLJOhGzltgAGq7Va8eZ/x9jOWsciZLtM80LAfv/QaKSi7/biUo2hi5wejih30vM6yFA3RE+n70MoIm0iNg1bC1RqsXxdE1zmw02HrQ5SdQ0LCB4fneW7KZZYPWWGRttndE6Gb8oQIbqcbYvuAT4bir+3UAarYEHpk7+FUgeyrOquAbBn1oZHH3BjF9VKxVhElJ9Uelwvbx9DyNtvw6pDbhd6K5aZt6z30BUlajPlo1yWskn2quKCG0Ln5U/N2JLEwgROYxh2W3Z7mRB2dv+3NYdb64A6jt+n8jFw==
