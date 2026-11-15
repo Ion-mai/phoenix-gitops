@@ -8,8 +8,6 @@ metadata:
 spec:
   args:
     - name: canary-hash
-      valueFrom:
-        podTemplateHashValue: Latest
   metrics:
     - name: canary-5xx-ratio
       interval: {{ .Values.backend.analysis.interval }}
