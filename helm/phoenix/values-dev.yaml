@@ -1,10 +1,10 @@
 # DEV — updated automatically by phoenix-app CI (via PR). Auto-sync + self-heal.
 environment: dev
 frontend:
-  image: {tag: latest}
+  image: {tag: 'sha-9c40182@sha256:50600e1e25506f332c50f03aa1c9c9c4f2797b5e99299fb6eaebc95e761ee714'}
 backend:
   replicas: 1
   errorRate: "0"
-  image: {tag: latest}
+  image: {tag: 'sha-9c40182@sha256:31552e32cb899cd46512c6b782338b646223e03c13444226f1ee8e74e9520b21'}
 database:
   sealedPassword: AgAJIKoB0FjeUJvKvMwAT4W/6vO0lf2m1WYZttJcbUc8Q0fJuYVtQ/EB8TKpwSugTj2jd/2ImE3Hu37/yN9p30gtuCuHENENL9XHdHhTQagPptfzIyq0Wf9h6F64jvlNXF27OGBQlCOYJ4LKVVTf/qAiDksWfRDbtgLBY0gMpT0zDjg/lovaMtSTv8AEntCviPJlCFHgQIkkBkrHTdiRAeuXKqbMRCXlzBJxiKz4eUrp6D9eG2CRskcq++UZfKIcxd1O7Ok7sfZ+soVZSHEYFogRPCSAGAHpNtBGcqH1ErHzHliR1F3ByKtqRmo1A+I5kWAfaCtK196rX2wh1BEEHWl/EG+ioR6JeLOZG1gx56a+zvby6gtYSD2eHavvD5BFE9FX1zyMNIjZiD620TctjzEBKhNeP3MYI2W4xvg1arnIh3/dhq/Jmhfat0ILyucP7DHSWzLy/4HHM9peyL1zxW2JK/F3qAKGC7XtsJTxcWmfSWLVS6wgQDSySQ2nxR3F4qg40s1o/xDphM2fYUM6kjG1XyzH/9vtX3WOzHwGAfsT57W4m0H3fEcL3BJmbM2Y4pQlR9nlaBkR0cpxZUihSNEdiRt6jvJ+GiM9LflWWoLZxRv9xnVdhqGoU1h/C+GrBiI9j7gJeFts/jdZ+vQot+ngCONFiQWJg0fbVd9pyiow9eBGR6a8iBURp6+FXRdz6FdZ8V/q2uEmDjiYgHDlaciw5ifSPeCBVw==
